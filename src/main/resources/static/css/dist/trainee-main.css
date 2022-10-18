@@ -1,0 +1,70 @@
+#console {
+	background-color: #231F20;
+	height:150px;
+	min-height:25%;
+	max-height:75%;
+	width: 100%;
+	position: fixed !important;
+	top: auto !important;
+	bottom: 0 !important;
+  } 
+
+#tabs {
+    height:100%;
+}
+  #dashboard{
+      background-color: lightgrey;
+      height: 58px;
+  }
+  #content {
+    height: calc(100vh - 64px);
+  }
+  
+.tab-pane:not(.active) {
+	display: none;
+}
+
+#console-nav-tab  {
+    color: white;
+    background-color: #231F20;
+    border-color: #231F20;
+    border-right-color: grey;
+    border-left-color: grey;
+}
+
+#console-nav-tabContent,
+#console-nav-tabContent>.tab-pane>textarea {
+	background-color: #231F20;
+	color: white;
+	border-style: none;
+}
+
+#console-nav-tab>li.disabled>a {
+	color: #9e9e9e
+}
+
+#console-nav-tab>li>a {
+	color: #757575;
+	border-radius: 0
+}
+
+#console-nav-tab>li>a:hover {
+	color: #e0e0e0
+}
+
+#console-nav-tab>li.active {
+	border-top-color: #fff
+}
+
+#console-nav-tab>li.active>a,
+#console-nav-tab>li.active:hover>a {
+	background-color: #231F20;
+	color: #fff
+}
+
+#console-nav-tab>li.active>a {
+	border-top-color: transparent;
+	border-left-color: #f4f4f4;
+	border-right-color: #f4f4f4
+}
+
